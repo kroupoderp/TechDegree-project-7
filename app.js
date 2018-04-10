@@ -50,6 +50,7 @@ const phrases = [
     "The sky is only the start",
     "Love courageously",
     "Float like a butterfly sting like a bee", //
+    "Float like a butterfly sting like a bee", //
     "Hockey is the best sport", //
     "Aviate Navigate Communicate" //
 ];
@@ -81,9 +82,9 @@ function addPhraseToDisplay (arr)  {
         let list = document.createElement("LI");
         list.textContent = arr[i];
         ul.appendChild(list);
-        list.className = "letter";
+        list.className = "character";
         if (arr[i] !== ' ') {
-            list.className += ' ' + "no_whitespace"
+            list.className += ' ' + 'letter';
         }
     }
 }
@@ -118,7 +119,6 @@ qwerty.addEventListener('click', function(e) {
         }
 
         var included = document.querySelectorAll(".show");
-        var phrase_letters = document.querySelectorAll(".no_whitespace");
 
         if (inside === false) {
             images[guess_count].style.display = "none";
@@ -129,7 +129,7 @@ qwerty.addEventListener('click', function(e) {
             banner("lose", element, "You're out of guesses!!!");
         }
 
-        if (phrase_letters.length === included.length) {
+        if (letters.length === included.length) {
             banner("win", element, "You've guessed it!!!");
         }
     }

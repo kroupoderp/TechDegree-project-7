@@ -83,7 +83,7 @@ button {
 
 /* Phrase */
 
-.letter {
+.character {
   font-size: var(--font-size-medium);
   height: 65px;
   width: 65px;
