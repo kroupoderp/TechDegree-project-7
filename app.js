@@ -85,6 +85,8 @@ function addPhraseToDisplay (arr)  {
         list.className = "character";
         if (arr[i] !== ' ') {
             list.className += ' ' + 'letter';
+        } else {
+            list.classList.replace('character', 'space');
         }
     }
 }
