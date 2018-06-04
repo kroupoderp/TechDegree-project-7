@@ -1,6 +1,6 @@
 # Word guessing game
 
-Whenever the user starts a games, a new screen is displayed. It will contain a random phrase that gets pulled from an array. Each letter is hidden. The user has 5 guesses to figure out the right phrase. If the user makes a correct guess by clicking on a keyboard letter, the letter within the phrase get's displayed or else their available amount of tries will get decreased by one. There are two screens that can get displayed once the game is over: a success one meaning the user guessed the phrase and a failure one if the user ran out of tries.   
+Whenever the user starts a games, a new screen is displayed. It will contain a random phrase that gets pulled from an array. Each letter is hidden. The user has 5 guesses to figure out the right phrase. If the user makes a correct guess by clicking on a keyboard letter, the letter within the phrase get's displayed or else their available amount of tries will get decreased by one (the icons below indicate the amount of tries left). There are two screens that can get displayed once the game is over: a success one meaning the user guessed the phrase and a failure one if the user ran out of tries.   
 
 <img width="1280" alt="img-1" src="https://user-images.githubusercontent.com/23324252/40892596-3b9ecf98-6767-11e8-864c-ab2631fcd64f.png">
 
